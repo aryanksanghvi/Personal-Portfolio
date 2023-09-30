@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoPhactory38</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class = "header">
+        <a href = "#home" class = "logo">PhotoPhactory38.</a>
+        <nav class = "navbar" id = "navbar">
+            <a class = "navlink active" onclick = "sv('home','flex');sv('samples','none');sv('aboutme','none');sv('get','none')">Home</a>
+            <a class = "navlink" onclick = "sv('home','none');sv('samples','flex');sv('aboutme','none');sv('get','none')">Portfolio</a>
+            <a class = "navlink" onclick = "sv('home','none');sv('samples','none');sv('aboutme','flex');sv('get','none')">About Me</a>
+            <a class = "navlink" onclick = "sv('home','none');sv('samples','none');sv('aboutme','none');sv('get','flex')">Get in Touch</a>
+        </nav>
+    </header>
+    <div class = "home" id = "home">
+        <div class = "homepage" id = "homepage">
+            <h1>Hi, I'm Aryan Sanghvi</h1>
+            <h3>Photographer</h3>
+            <br>
+            <p>"Meet the curious and creative mind behind the lens - a photographer on a relentless quest to freeze time, uncover beauty, and share unique perspectives through the art of photography."</p>
+            <br>
+            <div class = "btn">
+                <a href = "#">Hire Me</a>
+                <a href = "#">Let's Talk</a>
+            </div>
+        </div>
+        <div class = "imgpage">
+            <img class = "img" src = "Images/me8.png" width="28%">
+        </div>
+        <div class = "icons">
+            <a href = "#" class = "icon1"><i class='bx bxl-linkedin' style="font-size: 170%;"></i></a>
+            <a href = "#" class = "icon2"><i class='bx bxl-instagram' style="font-size: 170%;"></i></a>
+            <a href = "#" class = "icon3"><i class='bx bx-camera' style="font-size: 170%;"></i></a>
+        </div>
+    </div>
+    <div class = "samples" id = "samples">
+        <div class = "row">
+            <div class = "column">
+                <img src = "Photos/Empty.png">
+                <img src = "Photos/1B03481D-8029-466E-9787-5485103593C2.jpeg">
+                <img src = "Photos/20211127_081303996_iOS.jpg">
+                <img src = "Photos/20220417_130810004_iOS.heic">
+                <img src = "Photos/584A3515-976F-4859-B1D2-7E82EFFAFE15.jpeg">
+                <img src = "Photos/AEFE8F19-9B9E-4C7C-9724-CCE1633E33D8.JPEG">
+                <img src = "Photos/F7815679-5712-4F2F-82E2-606C97733ABB.jpg">
+                <img src = "Photos/IMG_0451.JPG">
+                <img src = "Photos/IMG_6750.JPG">
+            </div>
+            <div class = "column">
+                <img src = "Photos/Empty.png">
+                <img src = "Photos/A56C1C5D-47AA-4F67-99BE-B87D00783120.jpeg">
+                <img src = "Photos/21E173EC-791A-45D6-A717-0CDCA91B9CEA.jpeg">
+                <img src = "Photos/2B98627E-DACE-49D7-96C5-13DCAFD45BEA.jpeg">
+                <img src = "Photos/20220417_130827611_iOS.heic">
+                <img src = "Photos/B4943EF4-41B1-4D8D-B982-29C9F5F719D9.jpeg">
+                <img src = "Photos/FF72C10A-25F5-4331-B7A1-0E644986FF0D.jpeg">
+                <img src = "Photos/IMG_1065.JPG">
+                <img src = "Photos/IMG_6881.JPG">
+            </div>
+            <div class = "column">
+                <img src = "Photos/Empty.png">
+                <img src = "Photos/_DSC0171.jpeg">
+                <img src = "Photos/68F05B35-F623-4AFB-88AC-C28C97A3F770.jpeg">
+                <img src = "Photos/8202FCA1-C044-43DB-836D-9EE55E157A67.jpg">
+                <img src = "Photos/8923EA39-57E1-4F17-B958-F32F1706B917.jpeg">
+                <img src = "Photos/DA5BEA23-6646-4CED-9168-B1FC40DD1E55.JPEG">
+                <img src = "Photos/IMG_0449.JPG">
+                <img src = "Photos/IMG_6533.HEIC">
+            </div>
+            <div class = "column">
+                <img src = "Photos/Empty.png">
+                <img src = "Photos/20220814_111812829_iOS.heic">
+                <img src = "Photos/A3AB26D6-2C3C-488E-95B9-F0586494E396.jpeg">
+                <img src = "Photos/67D88DD9-FD4B-4C66-A3C2-A26F4A1C7D8C.jpeg">
+                <img src = "Photos/A718A99B-BC5F-4094-9E68-684086FD4823.jpeg">
+                <img src = "Photos/DB95FB3B-B42C-4BF0-ACB8-10AC4918AA22.jpeg">
+                <img src = "Photos/EE1D5800-0696-40C1-98FE-BA8911268EEE.jpeg">
+                
+            </div>
+        </div>
+    </div>
+    <div class = "aboutme" id = "aboutme">
+        <h1>Hi There! This is Aryan Sanghvi</h1>
+        <br>
+        <img src = "Images/me3.jpg" width = "300px" class = "mephoto">
+        <br>
+        <p>I am a student, Pre - Final Year, in VIT Chennai, pursuing my Bachelor's Degree in Conputer Science and Engineering.
+            I always had a passion in photography, and I had covered a few family events too. 
+            When I joined college, I got into the Photography Club of VIT Chennai and started covering various events happening
+            around the campus. 
+            This is a place where I will show case my best work, and if you like my work, you can hire me too!
+        </p>
+    </div>
+    <div class = "get" id = "get">
+        <h1>Let's Get in Touch!</h1>
+        <br>
+        <br>
+        <h2>Want to Write to Me?</h2>
+        <a href = "mailto:photophactory38@gmail.com?subject = Feedback&body = Message">
+            <h4>Click Here!</h4>
+        </a>
+        <h2 class = "call">Want to Speak with Me?</h2>
+        <a href="tel:+918940065465">
+            <h4>Click Here!</h4>
+        </a>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
